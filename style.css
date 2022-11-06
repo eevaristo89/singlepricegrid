@@ -6,7 +6,6 @@
 
 body {
   background-color: hsl(204, 43%, 93%);
-  display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Karla", sans-serif;
@@ -19,7 +18,7 @@ main {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.05);
-  max-width: 800px;
+  max-width: 900px;
   overflow: hidden;
   margin: auto;
 }
@@ -98,6 +97,11 @@ ul {
 
 ul li {
   line-height: 25px;
+}
+
+footer {
+  text-align: center;
+  font-family: "Karla", sans-serif;
 }
 
 @media screen and (max-width: 600px) {
